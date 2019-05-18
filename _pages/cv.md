@@ -25,7 +25,12 @@ Work experience
   * IIT Kanpur, India
   * Duties included: Developing path planner for UAV.
   * Supervisor: Prof. Mangal Kothari
-  
+
+Academic Service
+======
+* Volunteer for ICRA-2019.
+* Reviewer for IROS-2019.
+
 Skills
 ======
 * Skill 1
