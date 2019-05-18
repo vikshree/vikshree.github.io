@@ -11,21 +11,20 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Tech. in Aerospace Engineering, IIT Kanpur, 2017
+* Ph.D in Mechanical Engineering, Cornell University, 2022 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2016: Research Intern
+  * Texas A&M University, USA
+  * Duties included: Developing simultaneous localization and mapping (SLAM) algorithm for mobile robot.
+  * Supervisor: Prof. Suman Chakravorty 
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2015: Research Intern
+  * IIT Kanpur, India
+  * Duties included: Developing path planner for UAV.
+  * Supervisor: Prof. Mangal Kothari
   
 Skills
 ======
