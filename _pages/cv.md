@@ -11,8 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.Tech. in Aerospace Engineering, Indian Institute of Technology Kanpur, 2017
 * Ph.D in Mechanical Engineering, Cornell University, 2022 (expected)
+* B.Tech. in Aerospace Engineering, Indian Institute of Technology Kanpur, 2017
+
 
 Work experience
 ======
