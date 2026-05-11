@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Publications are in reversed chronological order.
+# description: Publications and patents in reversed chronological order.
 nav: true
 nav_order: 2
 ---
@@ -15,6 +15,12 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+<h2>Peer-reviewed Journal and Conference Articles</h2>
+
+{% bibliography --query @article,@inproceedings,@incollection,@book,@phdthesis,@mastersthesis,@techreport %}
+
+<h2>Patents</h2>
+
+{% bibliography --query @patent, @misc %}
 
 </div>
