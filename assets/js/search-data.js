@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-research",
           title: "Research",
-          description: "My research projects and ongoing work.",
+          description: "Broad research themes I have worked on and ongoing work.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
@@ -489,11 +489,36 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "research-sensor-fusion-for-soft-robotic-fruit-picking",
-          title: 'Sensor Fusion for Soft Robotic Fruit Picking',
-          description: "Developing advanced sensor fusion techniques for soft robotic manipulators to enable gentle and precise fruit harvesting in agricultural applications.",
+            },},{id: "research-longe-range-3d-object-detection-and-tracking",
+          title: 'Longe-range 3D Object Detection and Tracking',
+          description: "To do: Developing advanced sensor fusion techniques for soft robotic manipulators to enable gentle and precise fruit harvesting in agricultural applications.",
+          section: "Research",handler: () => {
+              window.location.href = "/research/3d-detection-tracking/";
+            },},{id: "research-human-attribute-identification-and-tracking",
+          title: 'Human Attribute Identification and Tracking',
+          description: "To do: Developing advanced sensor fusion techniques for soft robotic manipulators to enable gentle and precise fruit harvesting in agricultural applications.",
+          section: "Research",handler: () => {
+              window.location.href = "/research/human-identify-detect/";
+            },},{id: "research-extrinsic-calibration-for-lidar",
+          title: 'Extrinsic Calibration for LiDAR',
+          description: "To do: Developing advanced sensor fusion techniques for soft robotic manipulators to enable gentle and precise fruit harvesting in agricultural applications.",
+          section: "Research",handler: () => {
+              window.location.href = "/research/lidar-calib/";
+            },},{id: "research-multi-modal-perception-in-search-and-rescue-missions",
+          title: 'Multi-modal Perception in Search-and-Rescue Missions',
+          description: "To do: Developing advanced sensor fusion techniques for soft robotic manipulators to enable gentle and precise fruit harvesting in agricultural applications.",
+          section: "Research",handler: () => {
+              window.location.href = "/research/multi-modal-perception-sar/";
+            },},{id: "research-sensor-fusion-for-robotics-in-agriculture",
+          title: 'Sensor Fusion for Robotics in Agriculture',
+          description: "To do: Developing advanced sensor fusion techniques for soft robotic manipulators to enable gentle and precise fruit harvesting in agricultural applications.",
           section: "Research",handler: () => {
               window.location.href = "/research/sensor-fusion-fruit-picking/";
+            },},{id: "research-simulataneous-localization-and-mapping",
+          title: 'Simulataneous Localization and Mapping',
+          description: "To do: Developing advanced sensor fusion techniques for soft robotic manipulators to enable gentle and precise fruit harvesting in agricultural applications.",
+          section: "Research",handler: () => {
+              window.location.href = "/research/slam/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
