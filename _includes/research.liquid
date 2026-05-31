@@ -30,11 +30,9 @@
   {% if project.related_publications %}
     <div class="research-publications mt-3">
       <h6>Related publications</h6>
-      <ul>
-        {% for pub_key in project.related_publications %}
-          <li>{% bibliography --query @*[key={{pub_key}}] --template bib_short %}</li>
-        {% endfor %}
-      </ul>
+      {% for pub_key in project.related_publications %}
+        {% bibliography --query @*[key={{pub_key}}] --template bib_short --group_by none --bibliography_list_tag ul %}
+      {% endfor %}
     </div>
   {% endif %}
 
