@@ -11,10 +11,17 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "Publications are in reversed chronological order.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
+          },
+        },{id: "nav-research",
+          title: "Research",
+          description: "My research projects and ongoing work.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
           },
         },{id: "nav-projects",
           title: "projects",
@@ -43,13 +50,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
@@ -489,6 +489,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "research-sensor-fusion-for-soft-robotic-fruit-picking",
+          title: 'Sensor Fusion for Soft Robotic Fruit Picking',
+          description: "Developing advanced sensor fusion techniques for soft robotic manipulators to enable gentle and precise fruit harvesting in agricultural applications.",
+          section: "Research",handler: () => {
+              window.location.href = "/research/sensor-fusion-fruit-picking/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
