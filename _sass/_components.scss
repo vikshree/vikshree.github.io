@@ -160,6 +160,50 @@ ul.task-list input[type="checkbox"] {
     margin-bottom: 1rem;
     text-align: right;
   }
+
+  .research-publications {
+    margin-top: 1rem;
+
+    h6 {
+      color: var(--global-theme-color);
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+
+    ul {
+      padding-left: 1rem;
+
+      li {
+        margin-bottom: 0.25rem;
+        font-size: 0.9rem;
+        line-height: 1.3;
+      }
+    }
+  }
+
+  .research-item {
+    width: 100%;
+
+    .research-title {
+      margin-bottom: 1rem;
+    }
+
+    .research-body {
+      margin-bottom: 1rem;
+    }
+
+    .research-description {
+      margin-bottom: 0;
+    }
+
+    .research-image {
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    }
+  }
 }
 
 // Repositories

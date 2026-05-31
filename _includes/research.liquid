@@ -1,0 +1,41 @@
+<div class="research-item mb-4">
+  <h3 class="research-title">{{ project.title }}</h3>
+
+  <div class="research-body row align-items-start">
+    {% if project.img %}
+      <div class="col-12 col-md-4 research-image mb-3 mb-md-0">
+        {%
+          include figure.liquid
+          loading="eager"
+          path=project.img
+          sizes = "800px"
+          alt=project.title
+          class="img-fluid rounded z-depth-1"
+        %}
+      </div>
+      <div class="col-12 col-md-8 research-text">
+        {% if project.description %}
+          <p class="research-description">{{ project.description }}</p>
+        {% endif %}
+      </div>
+    {% else %}
+      <div class="col-12 research-text">
+        {% if project.description %}
+          <p class="research-description">{{ project.description }}</p>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+
+  {% if project.related_publications %}
+    <div class="research-publications mt-3">
+      <h6>Related publications</h6>
+      <ul>
+        {% for pub_key in project.related_publications %}
+          <li>{% bibliography --query @*[key={{pub_key}}] --template bib_short %}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+
+</div>
