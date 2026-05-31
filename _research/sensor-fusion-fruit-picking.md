@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Sensor Fusion for Soft Robotic Fruit Picking"
-description: "Developing advanced sensor fusion techniques for soft robotic manipulators to enable gentle and precise fruit harvesting in agricultural applications."
+title: "Sensor Fusion for Robotics in Agriculture"
+description: "To do: Developing advanced sensor fusion techniques for soft robotic manipulators to enable gentle and precise fruit harvesting in agricultural applications."
 img: /assets/img/research/nat-comm-robot-gripper.jpg
-importance: 1
+importance: 2
 category: research
 related_publications: [mishra2026sensor]
 github: https://github.com/yourusername/sensor-fusion-fruit-picking
