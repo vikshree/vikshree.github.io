@@ -501,7 +501,7 @@ ninja.data = [{
               window.location.href = "/research/human-identify-detect/";
             },},{id: "research-extrinsic-calibration-for-lidar",
           title: 'Extrinsic Calibration for LiDAR',
-          description: "To do: Developing advanced sensor fusion techniques for soft robotic manipulators to enable gentle and precise fruit harvesting in agricultural applications.",
+          description: "I developed an estimation framework for calibrating line-scanning FMCW (frequency-modulated continuous-wave) LiDAR sensors scanning objects on dynamic platforms such as rotating stages and conveyor belts. The framework formulates coordinate-transformation parameter estimation as an optimization problem, exploiting geometric consistency in the reconstructed point cloud as the core criterion. A two-stage solver achieves robust convergence, and post-calibration analysis demonstrates that the recovered point clouds faithfully represent the scanned geometry with a dimensioning error below 0.3%.",
           section: "Research",handler: () => {
               window.location.href = "/research/lidar-calib/";
             },},{id: "research-multi-modal-perception-in-search-and-rescue-missions",
@@ -514,8 +514,8 @@ ninja.data = [{
           description: "To do: Developing advanced sensor fusion techniques for soft robotic manipulators to enable gentle and precise fruit harvesting in agricultural applications.",
           section: "Research",handler: () => {
               window.location.href = "/research/sensor-fusion-fruit-picking/";
-            },},{id: "research-simulataneous-localization-and-mapping",
-          title: 'Simulataneous Localization and Mapping',
+            },},{id: "research-simultaneous-localization-and-mapping",
+          title: 'Simultaneous Localization and Mapping',
           description: "To do: Developing advanced sensor fusion techniques for soft robotic manipulators to enable gentle and precise fruit harvesting in agricultural applications.",
           section: "Research",handler: () => {
               window.location.href = "/research/slam/";
