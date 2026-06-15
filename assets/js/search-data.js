@@ -506,7 +506,7 @@ ninja.data = [{
               window.location.href = "/research/lidar-calib/";
             },},{id: "research-multi-modal-perception-in-search-and-rescue-missions",
           title: 'Multi-modal Perception in Search-and-Rescue Missions',
-          description: "To do: Developing advanced sensor fusion techniques for soft robotic manipulators to enable gentle and precise fruit harvesting in agricultural applications.",
+          description: "Collaboration between humans and robotic agents in search-and-rescue missions can ensure the safety of first responders while expediting victim search. I proposed a Bayesian fusion strategy to combine camera-based danger predictions with language-based descriptors provided by a human operator, producing a fused danger estimate for the scene. This estimate was then used to generate a risk-aware search plan for victim localization. A companion dataset was developed comprising realistic search-and-rescue scenes sourced from real-world film footage, labelled with danger-related language attributes.",
           section: "Research",handler: () => {
               window.location.href = "/research/multi-modal-perception-sar/";
             },},{id: "research-sensor-fusion-for-robotics-in-agriculture",
