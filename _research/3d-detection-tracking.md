@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Longe-range 3D Object Detection and Tracking"
-description: "To do: Developing advanced sensor fusion techniques for soft robotic manipulators to enable gentle and precise fruit harvesting in agricultural applications."
+title: "Long-range 3D Object Detection and Tracking"
+description: "Stereo cameras provide dense 3D information of the surrounding environment, on the order of tens of millions of points per second. I proposed a bird's-eye-view (BEV) sensor model for stereo cameras that enables 3D detection of small objects at long range. The sensor model output was consumed by a particle filter, demonstrating real-time tracking of a 16 cm tall object at 160 m distance from a moving ego vehicle."
 img: /assets/img/research/3d_object_detect_track.png
 importance: 3
 category: research
