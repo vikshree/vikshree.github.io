@@ -496,7 +496,7 @@ ninja.data = [{
               window.location.href = "/research/3d-detection-tracking/";
             },},{id: "research-human-attribute-identification-and-tracking",
           title: 'Human Attribute Identification and Tracking',
-          description: "To do: Developing advanced sensor fusion techniques for soft robotic manipulators to enable gentle and precise fruit harvesting in agricultural applications.",
+          description: "Appearance attributes have been widely used to identify a person of interest within a gallery of individuals. However, these methods often fail in real-world applications due to incorrect or insufficient attributes. To address the problem of incorrect attributes, I first conducted a human-subject study to identify the appearance attributes most easily recalled by human witnesses, and used them as semantic features for training a zero-shot learning (ZSL) model. To address the complementary problem of insufficient attribute data, I developed an uncertainty-quantification module that iteratively queries the user for additional descriptors about the person of interest when needed.",
           section: "Research",handler: () => {
               window.location.href = "/research/human-identify-detect/";
             },},{id: "research-extrinsic-calibration-for-lidar",
@@ -516,7 +516,7 @@ ninja.data = [{
               window.location.href = "/research/sensor-fusion-fruit-picking/";
             },},{id: "research-simultaneous-localization-and-mapping",
           title: 'Simultaneous Localization and Mapping',
-          description: "To do: Developing advanced sensor fusion techniques for soft robotic manipulators to enable gentle and precise fruit harvesting in agricultural applications.",
+          description: "I studied the consequences of uncertainty in orientation knowledge encountered during the localization and mapping problem in mobile robots. To address that, a two-step approach was proposed where we first estimate the orientation, followed by optimizing for the best position value. A comparison with state-of-the-art methods revealed that this method is tolerant to high sensor noise levels.",
           section: "Research",handler: () => {
               window.location.href = "/research/slam/";
             },},{id: "teachings-data-science-fundamentals",
