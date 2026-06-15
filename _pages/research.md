@@ -15,6 +15,9 @@ nav_order: 3
 <div class="research-list">
   {% for project in sorted_research %}
     {% include research.liquid %}
+    {% unless forloop.last %}
+      <hr class="research-divider" />
+    {% endunless %}
   {% endfor %}
 </div>
 
