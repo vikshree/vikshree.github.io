@@ -7,13 +7,28 @@ Variables available: `entry` (bibliography entry).
 
 <span class="bib-short">
   {{ entry.title | strip_html | strip }}
-  {%- if entry.author -%}
+  {%- assign author_array_size = entry.author_array | size -%}
+  {%- if author_array_size > 0 -%}
+    — {% for author in entry.author_array %}
+      {%- if forloop.first == false -%}
+        {%- if forloop.last and author_array_size > 1 -%}
+          {%- if author_array_size > 2 -%}{{ ", and " }}{%- else -%}{{ " and " }}{%- endif -%}
+        {%- elsif author_array_size > 2 -%}
+          {{ ", " }}
+        {%- endif -%}
+      {%- endif -%}
+      {{ author.first }} {{ author.last }}
+    {%- endfor -%}
+  {%- elsif entry.author -%}
     — {{ entry.author | replace: " and ", ", " }}
   {%- endif -%}
   {%- if entry.journal -%}
     , {{ entry.journal }}
   {%- elsif entry.booktitle -%}
     , In {{ entry.booktitle }}
+  {%- endif -%}
+  {%- if entry.note -%}
+    , {{ entry.note }}
   {%- endif -%}
   {%- if entry.year -%}
     , {{ entry.year }}
