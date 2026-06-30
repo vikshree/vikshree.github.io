@@ -6,7 +6,7 @@ subtitle: Sr. Perception Engineer @ <a href='https://silc.com/'>SiLC</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: vikram-cropped.jpg
   image_circular: false # crops the image to make it circular
   width: 1000px
   more_info: >
