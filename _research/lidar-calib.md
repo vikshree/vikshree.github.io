@@ -5,7 +5,7 @@ description: "I developed an estimation framework for calibrating line-scanning 
 img: /assets/img/research/lidar_calibration_setup.png
 importance: 1
 category: research
-# related_publications: [vikram2024stereovision, vikram2024realtimeconfidence]
+related_publications: [shree2026calibration]
 # github: https://github.com/yourusername/sensor-fusion-fruit-picking
 ---
 ---
