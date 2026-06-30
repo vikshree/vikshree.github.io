@@ -19,6 +19,8 @@ nav_order: 2
 
 {% bibliography --query @article,@inproceedings,@incollection,@book,@phdthesis,@mastersthesis,@techreport %}
 
+<div style="margin-top: 5rem;"></div>
+
 <h2>Approved Patents</h2>
 
 {% bibliography --query @patent, @misc %}
