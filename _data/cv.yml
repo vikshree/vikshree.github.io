@@ -198,6 +198,19 @@ cv:
     #     start_date: 2018-01-01
     #     end_date: 2018-01-01
 
+    Teaching:
+      - semester: Spring 2021
+        university: Cornell University
+        course_title: System Dynamics (MAE3260)
+        role: Teaching Assistant
+        summary: Developed content for group work sessions, designed virtual lab experiments, and held office hours.
+
+      - semester: Fall 2020
+        university: Cornell University
+        course_title: Mechatronics (MAE3780)
+        role: Teaching Assistant
+        summary: Led weekly discussions, created assignments, supervised student projects, and held office hours.
+
     # References:
     #   - name: Professor John Doe
     #     icon: fa-solid fa-laptop

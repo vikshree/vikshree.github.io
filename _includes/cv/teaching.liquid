@@ -1,0 +1,44 @@
+{% comment %}
+  Teaching entry renderer for RenderCV-style teaching data.
+  Expected fields: semester, university, course_title, role, summary
+{% endcomment %}
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in entries %}
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+          {% assign semester = entry.semester | default: entry.term | default: '' %}
+          {% if semester != '' %}
+            <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ semester }}</span>
+          {% endif %}
+
+          {% assign university = entry.university | default: entry.University | default: '' %}
+          {% if university != '' %}
+            <p class="location mt-2">
+              <i class="fa-solid fa-building-columns iconlocation"></i>
+              {{ university }}
+            </p>
+          {% endif %}
+        </div>
+
+        <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+          {% assign course_title = entry.course_title | default: entry.courseTitle | default: entry.name | default: '' %}
+          {% if course_title != '' %}
+            <h6 class="title font-weight-bold ml-1 ml-md-4">{{ course_title }}</h6>
+          {% endif %}
+
+          {% assign role = entry.role | default: entry.Role | default: '' %}
+          {% if role != '' %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ role }}</h6>
+          {% endif %}
+
+          {% assign summary = entry.summary | default: entry.description | default: '' %}
+          {% if summary != '' %}
+            <p class="ml-1 ml-md-4 mt-2">{{ summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+          {% endif %}
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
