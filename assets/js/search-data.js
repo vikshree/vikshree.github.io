@@ -23,20 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/research/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
@@ -44,28 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -491,7 +456,7 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "research-long-range-3d-object-detection-and-tracking",
           title: 'Long-range 3D Object Detection and Tracking',
-          description: "Stereo cameras provide dense 3D information of the surrounding environment, on the order of tens of millions of points per second. I proposed a bird&#39;s-eye-view (BEV) sensor model for stereo cameras that enables 3D detection of small objects at long range. The sensor model output was consumed by a particle filter, demonstrating real-time tracking of a 16 cm tall object at 160 m distance from a moving ego vehicle.",
+          description: "Stereo-cameras provide dense 3D information of the surrounding environment, on the order of tens of millions of points per second. I proposed a bird&#39;s-eye-view (BEV) sensor model for stereo-cameras that enables 3D detection of small objects at long range. The sensor model output was consumed by a particle filter, demonstrating real-time tracking of a 16 cm tall object at 160 m distance from a moving ego vehicle.",
           section: "Research",handler: () => {
               window.location.href = "/research/3d-detection-tracking/";
             },},{id: "research-human-attribute-identification-and-tracking",
@@ -534,42 +499,28 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/CV_Vikram_20260709.pdf", "_blank");
         },
       },{
-        id: 'social-email',
-        title: 'email',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://www.linkedin.com/in/vikram-shree", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=Amre8rUAAAAJ&hl", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://github.com/vikshree", "_blank");
         },
       },{
       id: 'light-theme',
