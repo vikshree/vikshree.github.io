@@ -178,6 +178,9 @@ layout: default
               {% elsif section_title == 'Teaching' %}
                 {% assign entries = section_entries %}
                 {% include cv/teaching.liquid %}
+              {% elsif section_title == 'Academic Service' %}
+                {% assign entry = section_entries %}
+                {% include cv/academic_service.liquid %}
               {% elsif section_title == 'References' %}
                 {% assign entries = section_entries %}
                 {% include cv/references.liquid %}

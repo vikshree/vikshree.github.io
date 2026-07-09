@@ -1,0 +1,38 @@
+{% comment %}
+  Custom renderer for the Academic Service section.
+  Expected structure in CV data:
+  - summary: paragraph text
+  - journals: list of journal names
+  - conferences: list of conference names
+{% endcomment %}
+
+<div class="card-text font-weight-light">
+  {% assign summary = entry.summary | default: '' %}
+  {% if summary != '' %}
+    <p class="mb-3">{{ summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+  {% endif %}
+
+  {% assign journals = entry.journals | default: empty_array %}
+  {% if journals.size > 0 %}
+    <div class="mb-3">
+      <h6 class="font-weight-bold mb-2">Journals</h6>
+      <ul class="pl-4 mb-0">
+        {% for item in journals %}
+          <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+
+  {% assign conferences = entry.conferences | default: empty_array %}
+  {% if conferences.size > 0 %}
+    <div>
+      <h6 class="font-weight-bold mb-2">Conferences</h6>
+      <ul class="pl-4 mb-0">
+        {% for item in conferences %}
+          <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+</div>

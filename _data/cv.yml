@@ -211,6 +211,20 @@ cv:
         role: Teaching Assistant
         summary: Led weekly discussions, created assignments, supervised student projects, and held office hours.
 
+    Academic Service:
+      summary: I have served as reviewer for reputed international journals and conferences.
+      journals:
+        - IEEE Robotics and Automation Letters
+        - Journal of Intelligent & Robotic Systems
+        - Transactions on Neural Networks and Learning Systems
+        - Journal of Supercomputing
+        - Journal of Big Data
+      conferences:
+        - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+        - IEEE Conference on Decision and Control (CDC)
+        - Autonomous Robots and Multirobot Systems (AAMAS)
+
+
     # References:
     #   - name: Professor John Doe
     #     icon: fa-solid fa-laptop
