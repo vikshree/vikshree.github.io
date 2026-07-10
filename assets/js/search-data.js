@@ -499,7 +499,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/CV_Vikram_20260709.pdf", "_blank");
+          window.open("/assets/pdf/CV_Vikram_20260710_ver02.pdf", "_blank");
         },
       },{
         id: 'social-linkedin',
