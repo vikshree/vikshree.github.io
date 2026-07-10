@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://vikshree.github.io/sitemap.xml
+Sitemap: https://vikramshree.com/sitemap.xml
