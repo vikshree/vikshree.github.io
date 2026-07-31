@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-10'
+  last_updated: '2026-07-31'
 papers:
   Amre8rUAAAAJ:2osOgNQ5qMEC:
     citations: 4
@@ -25,6 +25,10 @@ papers:
     citations: 17
     title: 'RFM-SLAM: Exploiting relative feature measurements to separate orientation and position estimation in SLAM'
     year: '2017'
+  Amre8rUAAAAJ:UebtZRa9Y70C:
+    citations: 0
+    title: Two-Stage Extrinsic Calibration of a Static Line-Scanning Lidar with a Rotary Platform
+    year: '2026'
   Amre8rUAAAAJ:W7OEmFMy1HYC:
     citations: 0
     title: Orientation-Discriminative Feature Representation for Decentralized Pedestrian Tracking
@@ -46,7 +50,7 @@ papers:
     title: An empirical study of person re-identification with attributes
     year: '2019'
   Amre8rUAAAAJ:roLk4NBRz8UC:
-    citations: 2
+    citations: 3
     title: Sensor fusion of touch & vision in soft manipulators for fruit picking
     year: '2026'
   Amre8rUAAAAJ:ufrVoPGSRksC:
@@ -54,6 +58,6 @@ papers:
     title: Stereo vision system and method for small-object detection and tracking in real time
     year: '2024'
   Amre8rUAAAAJ:zYLM7Y9cAGgC:
-    citations: 26
+    citations: 27
     title: Exploiting Natural Language for Efficient Risk-Aware Multi-Robot SaR Planning
     year: '2021'
