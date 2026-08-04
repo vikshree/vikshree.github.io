@@ -219,10 +219,11 @@ cv:
         - Transactions on Neural Networks and Learning Systems
         - Journal of Supercomputing
         - Journal of Big Data
+        - Scientific Reports
       conferences:
         - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
         - IEEE Conference on Decision and Control (CDC)
-        - Autonomous Robots and Multirobot Systems (AAMAS)
+        - Autonomous Agents and Multirobot Systems (AAMAS)
 
 
     # References:
