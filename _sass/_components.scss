@@ -323,6 +323,12 @@ ul.task-list input[type="checkbox"] {
       display: block;
       cursor: zoom-in;
     }
+
+    .caption {
+      margin-top: 0.5rem;
+      margin-bottom: 0;
+      color: var(--global-text-color-light);
+    }
   }
 
   p {

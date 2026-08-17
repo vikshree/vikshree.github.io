@@ -9,8 +9,8 @@ nav_order: 6
 
 <!-- pages/personal.md -->
 <!--
-  To swap in your own photos, replace the files in assets/img/personal/
-  (running.jpg, hiking.jpg, music.jpg) keeping the same names.
+  Photos live in assets/img/personal/. Each hobby uses the same file twice:
+  once in its tile, once (with a `caption`) in its expanded panel.
 
   To add a SECOND photo to a hobby, copy one of the `include figure.liquid`
   blocks inside that hobby's panel and wrap both in `<div class="col-6">`.
@@ -119,6 +119,7 @@ nav_order: 6
             path="assets/img/personal/vikram_la_marathon_2026.jpg"
             sizes="600px"
             alt="Running"
+            caption="Los Angeles, 2026"
             class="img-fluid rounded z-depth-1"
             zoomable=true
           %}
@@ -141,6 +142,7 @@ nav_order: 6
             path="assets/img/personal/vikram_bryce_canyon_2022.jpg"
             sizes="600px"
             alt="Hiking"
+            caption="Bryce Canyon National Park, 2022"
             class="img-fluid rounded z-depth-1"
             zoomable=true
           %}
@@ -163,6 +165,7 @@ nav_order: 6
             path="assets/img/personal/vikram_independence_day_2019_ithaca.jpg"
             sizes="600px"
             alt="Music"
+            caption="Ithaca, 2019"
             class="img-fluid rounded z-depth-1"
             zoomable=true
           %}
