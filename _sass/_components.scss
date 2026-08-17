@@ -215,8 +215,17 @@ ul.task-list input[type="checkbox"] {
 // Personal / hobbies
 
 .hobbies {
-  .col {
+  .hobby-col {
     padding-bottom: 1rem;
+  }
+
+  // On a phone the tiles stack, so each panel is left in DOM order and opens
+  // directly under the tile that was tapped. From md up the tiles sit in one
+  // row, so `order` pushes the open panel below all three of them.
+  @media (min-width: 768px) {
+    .hobby-panel {
+      order: 1;
+    }
   }
 
   // The whole tile is the collapse trigger, so strip the button chrome.

@@ -12,17 +12,21 @@ nav_order: 6
   Photos live in assets/img/personal/. Each hobby uses the same file twice:
   once in its tile, once (with a `caption`) in its expanded panel.
 
+  Each hobby is a TILE followed immediately by its PANEL, so on a phone the
+  description opens directly under the tile you tapped. On desktop the panels
+  are pushed below the whole row of tiles by `order` (see _sass/_components.scss).
+
   To add a SECOND photo to a hobby, copy one of the `include figure.liquid`
   blocks inside that hobby's panel and wrap both in `<div class="col-6">`.
-  To add a fourth hobby, copy one tile *and* its matching panel, and give
-  both the same new id (e.g. #hobby-cooking).
+  To add a fourth hobby, copy one tile *and* its panel, and give both the
+  same new id (e.g. #hobby-cooking).
 -->
 
 <div class="hobbies">
+  <div class="row" id="hobby-panels">
 
-  <!-- ===================== Tiles ===================== -->
-  <div class="row row-cols-1 row-cols-md-3">
-    <div class="col">
+    <!-- ===================== Running ===================== -->
+    <div class="col-12 col-md-4 hobby-col">
       <button
         type="button"
         class="hobby-tile"
@@ -50,7 +54,31 @@ nav_order: 6
       </button>
     </div>
 
-    <div class="col">
+    <div class="collapse hobby-panel col-12" id="hobby-running" data-parent="#hobby-panels">
+      <div class="hobby-panel-inner row align-items-start">
+        <div class="col-12 col-md-5 hobby-photo mb-3 mb-md-0">
+          {%
+            include figure.liquid
+            loading="lazy"
+            path="assets/img/personal/vikram_la_marathon_2026.jpg"
+            sizes="600px"
+            alt="Running"
+            caption="Los Angeles, 2026"
+            class="img-fluid rounded z-depth-1"
+            zoomable=true
+          %}
+        </div>
+        <div class="col-12 col-md-7">
+          <h4 class="hobby-heading">Running</h4>
+          <p>
+            I used to run occasionally, but it became a real habit at the start of 2022, when peer pressure dragged me into a 10K. Since then, I've kept chasing races across different cities - most recently, the LA Marathon in 2026.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== Hiking ===================== -->
+    <div class="col-12 col-md-4 hobby-col">
       <button
         type="button"
         class="hobby-tile"
@@ -78,7 +106,31 @@ nav_order: 6
       </button>
     </div>
 
-    <div class="col">
+    <div class="collapse hobby-panel col-12" id="hobby-hiking" data-parent="#hobby-panels">
+      <div class="hobby-panel-inner row align-items-start">
+        <div class="col-12 col-md-5 hobby-photo mb-3 mb-md-0">
+          {%
+            include figure.liquid
+            loading="lazy"
+            path="assets/img/personal/vikram_bryce_canyon_2022.jpg"
+            sizes="600px"
+            alt="Hiking"
+            caption="Bryce Canyon National Park, 2022"
+            class="img-fluid rounded z-depth-1"
+            zoomable=true
+          %}
+        </div>
+        <div class="col-12 col-md-7">
+          <h4 class="hobby-heading">Hiking</h4>
+          <p>
+            Hiking has become one of my favorite mood-elevators. I'm especially drawn to the US National Parks system and have been lucky to explore a handful of them over the past decade. Next on the list: making my way through a few national parks in Asia.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== Music ===================== -->
+    <div class="col-12 col-md-4 hobby-col">
       <button
         type="button"
         class="hobby-tile"
@@ -105,58 +157,8 @@ nav_order: 6
         </div>
       </button>
     </div>
-  </div>
 
-  <!-- ===================== Panels ===================== -->
-  <div id="hobby-panels">
-
-    <div class="collapse hobby-panel" id="hobby-running" data-parent="#hobby-panels">
-      <div class="hobby-panel-inner row align-items-start">
-        <div class="col-12 col-md-5 hobby-photo mb-3 mb-md-0">
-          {%
-            include figure.liquid
-            loading="lazy"
-            path="assets/img/personal/vikram_la_marathon_2026.jpg"
-            sizes="600px"
-            alt="Running"
-            caption="Los Angeles, 2026"
-            class="img-fluid rounded z-depth-1"
-            zoomable=true
-          %}
-        </div>
-        <div class="col-12 col-md-7">
-          <h4 class="hobby-heading">Running</h4>
-          <p>
-            I used to run occasionally, but it became a real habit at the start of 2022, when peer pressure dragged me into a 10K. Since then, I've kept chasing races across different cities - most recently, the LA Marathon in 2026.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="collapse hobby-panel" id="hobby-hiking" data-parent="#hobby-panels">
-      <div class="hobby-panel-inner row align-items-start">
-        <div class="col-12 col-md-5 hobby-photo mb-3 mb-md-0">
-          {%
-            include figure.liquid
-            loading="lazy"
-            path="assets/img/personal/vikram_bryce_canyon_2022.jpg"
-            sizes="600px"
-            alt="Hiking"
-            caption="Bryce Canyon National Park, 2022"
-            class="img-fluid rounded z-depth-1"
-            zoomable=true
-          %}
-        </div>
-        <div class="col-12 col-md-7">
-          <h4 class="hobby-heading">Hiking</h4>
-          <p>
-            Hiking has become one of my favorite mood-elevators. I'm especially drawn to the US National Parks system and have been lucky to explore a handful of them over the past decade. Next on the list: making my way through a few national parks in Asia.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="collapse hobby-panel" id="hobby-music" data-parent="#hobby-panels">
+    <div class="collapse hobby-panel col-12" id="hobby-music" data-parent="#hobby-panels">
       <div class="hobby-panel-inner row align-items-start">
         <div class="col-12 col-md-5 hobby-photo mb-3 mb-md-0">
           {%
