@@ -212,6 +212,124 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Personal / hobbies
+
+.hobbies {
+  .col {
+    padding-bottom: 1rem;
+  }
+
+  // The whole tile is the collapse trigger, so strip the button chrome.
+  .hobby-tile {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+
+    &:focus-visible .card {
+      border-color: var(--global-theme-color);
+    }
+
+    .card {
+      border: 1px solid var(--global-divider-color);
+      transition:
+        border-color 0.2s ease,
+        transform 0.2s ease;
+      overflow: hidden;
+    }
+
+    img {
+      width: 100%;
+      height: 190px;
+      object-fit: cover;
+      display: block;
+    }
+
+    figure {
+      margin: 0;
+    }
+
+    .card-body {
+      padding: 1rem 1.25rem;
+    }
+
+    .card-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0;
+      font-size: 1.15rem;
+      color: var(--global-text-color);
+      transition: color 0.2s ease;
+    }
+
+    .hobby-chevron {
+      font-size: 0.75rem;
+      color: var(--global-text-color-light);
+      transition: transform 0.2s ease;
+    }
+
+    &:hover {
+      .card-title {
+        color: var(--global-theme-color);
+      }
+    }
+
+    // Bootstrap flips aria-expanded on the trigger when the panel opens.
+    &[aria-expanded="true"] {
+      .card {
+        border-color: var(--global-theme-color);
+      }
+
+      .card-title {
+        color: var(--global-theme-color);
+      }
+
+      .hobby-chevron {
+        transform: rotate(180deg);
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .hobby-panel-inner {
+    margin-top: 0.5rem;
+    padding: 1.5rem 0 0.5rem;
+    border-top: 1px solid var(--global-divider-color);
+  }
+
+  .hobby-heading {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    color: var(--global-theme-color);
+  }
+
+  .hobby-photo {
+    figure {
+      margin: 0;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      cursor: zoom-in;
+    }
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
 // Repositories
 
 @media (min-width: 768px) {
