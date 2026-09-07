@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-31'
+  last_updated: '2026-09-07'
 papers:
   Amre8rUAAAAJ:2osOgNQ5qMEC:
     citations: 4
     title: Planning high-level paths in hostile, dynamic, and uncertain environments
     year: '2020'
   Amre8rUAAAAJ:IjCSPb-OGe4C:
-    citations: 4
+    citations: 5
     title: Interactive natural language-based person search
     year: '2020'
   Amre8rUAAAAJ:LkGwnXOMwfcC:
@@ -50,7 +50,7 @@ papers:
     title: An empirical study of person re-identification with attributes
     year: '2019'
   Amre8rUAAAAJ:roLk4NBRz8UC:
-    citations: 3
+    citations: 8
     title: Sensor fusion of touch & vision in soft manipulators for fruit picking
     year: '2026'
   Amre8rUAAAAJ:ufrVoPGSRksC:
@@ -58,6 +58,6 @@ papers:
     title: Stereo vision system and method for small-object detection and tracking in real time
     year: '2024'
   Amre8rUAAAAJ:zYLM7Y9cAGgC:
-    citations: 27
+    citations: 30
     title: Exploiting Natural Language for Efficient Risk-Aware Multi-Robot SaR Planning
     year: '2021'
