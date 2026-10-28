@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Sr. Perception Engineer @ <a href='https://silc.com/'>SiLC</a>
+subtitle: Staff Perception Engineer @ <a href='https://silc.com/'>SiLC</a>
 
 profile:
   align: right
