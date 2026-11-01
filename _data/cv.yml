@@ -46,12 +46,23 @@ cv:
 
     Experience:
       - company: SiLC Technologies
+        position: Staff Perception Engineer
+        location: Monrovia, CA, US
+        url: https://www.silc.com/
+        start_date: Oct 2026
+        end_date: Present
+        summary: I lead simulation efforts to model FMCW LiDAR at long ranges, facilitatting synthetic data collection for training and testing SOTA perception models.
+        # highlights:
+        #   - Relativity
+        #   - Description 2.
+
+      - company: SiLC Technologies
         position: Sr. Perception Engineer
         location: Monrovia, CA, US
         url: https://www.silc.com/
         start_date: Aug 2025
-        end_date: present
-        summary: I develop advanced perception algorithms for FMCW LiDAR, enabling accurate dimension estimation in industrial settings and high-fidelity simulation of LiDAR system behavior.
+        end_date: Sep 2026
+        summary: I developed advanced perception algorithms for FMCW LiDAR, covering extrinsic calibration, geometric object characterization and multi-lidar fusion.
         # highlights:
         #   - Relativity
         #   - Description 2.
