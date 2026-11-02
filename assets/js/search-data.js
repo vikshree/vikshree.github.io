@@ -506,7 +506,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/CV_Vikram_Sep_2026.pdf", "_blank");
+          window.open("/assets/pdf/CV_vikram_shree_20261101.pdf", "_blank");
         },
       },{
         id: 'social-linkedin',
